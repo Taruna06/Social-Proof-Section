@@ -1,0 +1,162 @@
+body
+{
+	/*background-image:url("images/bg-pattern-top-desktop.svg.svg") ,url("images/bg-pattern-bottom-desktop.svg");
+	background-position:-70vw 70vh, 40vw 50vh ;
+	/* background-position: -40% 50%, 150% -30%;*/*/
+	background-color: hsl(300, 24%, 96%)
+	 background-repeat:no-repeat;
+	 font-size: 15px;
+	 font-family: 'Spartan', sans-serif;
+}
+.container
+{
+	margin-top:-5%;
+}
+.first
+{
+	width:25%;
+	margin:2%;
+	margin-bottom:0;
+	padding:7rem;
+}
+.purple
+{
+	width:70%;
+	font-size:45px;
+	color:hsl(300, 43%, 22%);
+	font-weight:700;
+	 line-height: 45px;
+	 margin-bottom:2%;
+}
+.bottom
+{
+	color: hsl(303, 10%, 53%);
+	font-weight:600;
+}
+.star
+{
+	background-color:hsl(300, 24%, 96%);
+	color:hsl(300, 43%, 22%);
+	font-weight:700;
+	padding:15px;
+	margin:3%;
+}
+.fa
+{
+    color:rgb(229,147,73);
+    margin:5px;
+}
+.endstar
+{
+	margin-right:6%;
+}
+.frontstar
+{
+	margin-left:6%;
+}
+.twostar
+{
+	margin-left:3rem;
+	margin-right:-2rem;
+}
+.thirdstar
+{
+	margin-left:5rem;
+	margin-right:-4rem;
+}
+.reviews
+{
+	background-color:hsl(300, 43%, 22%);
+	margin:2rem;
+	margin-top:0;
+	margin-bottom:0;
+	color:white;
+	padding:2%;
+	border-radius:5px;
+    color:hsl(202, 50%, 166%);
+    font-weight:400;
+    font-size:15px;
+}
+img
+{
+	border-radius:50px;
+	width:3rem;
+	margin:12px;
+    margin-top:-2px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.one
+{
+	margin-left:-50%;
+}
+.name, .profile
+{
+	font-weight:600;
+	font-size:13px;
+	color: hsl(300, 24%, 96%);
+}
+.profile
+{
+    color:hsl(333, 80%, 67%);
+    font-weight:500;	
+}
+.two
+{
+	top:2rem;
+}
+.three
+{
+	top:4rem;
+}
+@media (max-width: 600px) {
+	.first
+	{
+		padding-top:12%;
+		margin: auto;
+        width: 100vw;
+	}
+	.purple,.bottom
+	{
+		margin:2% auto;
+		text-align:center;
+	}
+	.starcolumn
+	{
+		margin:auto;
+		padding-top:0;
+		margin-top:-60px;
+	}
+	.star
+	{
+		width:80%;
+		margin:auto;
+		margin-bottom:2rem;
+	}
+	.twostar,.thirdstar
+{
+	margin-left:0rem;
+	margin-right:0rem;
+    margin:auto;
+    margin-bottom:2rem;
+}
+.frontstar
+{
+	margin-left:1%;
+}
+.endstar
+{
+	margin-right:5%;
+}
+.one
+{
+	margin-left:-60%;
+}
+.three
+{
+	margin-bottom:10rem;
+}
+	}
